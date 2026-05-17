@@ -35,9 +35,9 @@ Bu proje, Python'ın yerleşik grafik arayüz kütüphanesi **Tkinter** kullanı
 
 Sistem arkada birbiriyle ilişkili toplam **11 adet SQL tablosu** yönetmektedir. `ON DELETE CASCADE` ve `FOREIGN KEY` mimarileri sayesinde veri bütünlüğü en üst düzeyde korunur:
 
-* `Kullanici` & `Rol` (Many-to-One)
-* `Program` & `Tur` $\rightarrow$ `ProgramTur` üzerinden (Many-to-Many)
-* `Kullanici` & `Tur` $\rightarrow$ `KullaniciTur` üzerinden (Many-to-Many)
+* `Kullanici` & `Rol` 
+* `Program` & `Tur` $\rightarrow$ `ProgramTur` 
+* `Kullanici` & `Tur` $\rightarrow$ `KullaniciTur` 
 * `OturumLog` & `IzlemeLog` (Sistem takip ve analitik logları)
 
 ---
